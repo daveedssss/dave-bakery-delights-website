@@ -6,7 +6,7 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1556760544-74068565f05c?auto=format&fit=crop&w=800&q=80" 
+              src="/lovable-uploads/236351a3-d1c5-4acb-b78b-da1c97423068.png" 
               alt="Dave, the master baker" 
               className="rounded-lg shadow-lg max-w-full h-auto"
             />

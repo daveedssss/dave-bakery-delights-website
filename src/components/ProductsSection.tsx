@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 const products = {
@@ -7,19 +6,19 @@ const products = {
       id: 1,
       name: "Chocolate Chip Cookies",
       description: "Classic cookies with premium Belgian chocolate chips and a soft, chewy texture.",
-      image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 2,
       name: "Butter Cookies",
       description: "Delicate, melt-in-your-mouth butter cookies with a hint of vanilla.",
-      image: "https://images.unsplash.com/photo-1600326145359-3a44909d1a39?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/4121e759-1d02-4938-bed0-1241137ac40c.png"
     },
     {
       id: 3,
       name: "Almond Cookies",
       description: "Crisp and nutty almond cookies with a subtle sweetness.",
-      image: "https://images.unsplash.com/photo-1583743089695-4b816a340f02?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/236351a3-d1c5-4acb-b78b-da1c97423068.png"
     }
   ],
   cakes: [

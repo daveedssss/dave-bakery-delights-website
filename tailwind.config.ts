@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -104,7 +103,7 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			},
 			backgroundImage: {
-				'texture': "url('https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=2000&q=80')",
+				'texture': "url('/lovable-uploads/9b7baa4b-14da-418d-ad85-6f766b94b1fa.png')",
 			}
 		}
 	},
