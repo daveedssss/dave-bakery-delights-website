@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				bakery: {
+					DEFAULT: '#8B5A2B',
+					light: '#D2B48C',
+					dark: '#654321',
+					gold: '#D4AF37',
+					cream: '#FFFDD0',
+					tan: '#D2B48C'
 				}
+			},
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'lato': ['Lato', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -89,6 +102,9 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			backgroundImage: {
+				'texture': "url('https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=2000&q=80')",
 			}
 		}
 	},
